@@ -5,11 +5,11 @@ This repository contains an LSTM module meant to forecast crude oil futures pric
 3) Low
 4) High
 5) Volume
-\n
+
 Modern tools like GPT-3.5, GitHub Copilot, and BlackBox AI were employed in building the model, albeit cautiously.
 
-The data for the crude oil prices was obtained from https://www.investing.com/commodities/crude-oil-historical-data and is contained in data/oil_data_uncleaned.csv
-The original data was cleaned and augmented by the model to produce relevant features, contained in new_train.csv and new_test.csv in the data folder.
+The data for the crude oil prices was obtained from [Investing.com](https://www.investing.com/commodities/crude-oil-historical-data) and is contained in `data/oil_data_uncleaned.csv`.
+The original data was cleaned and augmented by the model to produce relevant features, contained in `new_train.csv` and `new_test.csv`, also in the `data` folder.
 
 ## References
 - https://www.investing.com/commodities/crude-oil
