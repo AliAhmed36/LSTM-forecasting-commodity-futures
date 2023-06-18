@@ -8,6 +8,8 @@ This repository contains an LSTM module meant to forecast crude oil futures pric
 
 Modern tools like GPT-3.5, GitHub Copilot, and BlackBox AI were employed in building the model, albeit cautiously.
 
+The results are summarized in the code(notebook) file `model.ipynb` in the form of accuracy metrics and graphs. Feel free to have a look. I tried to comment the code as much as I can. See if you can write these comments and get the same GitHub Copilot output.
+
 The data for the crude oil prices was obtained from [Investing.com](https://www.investing.com/commodities/crude-oil-historical-data) and is contained in `data/oil_data_uncleaned.csv`.
 The original data was cleaned and augmented by the model to produce relevant features, contained in `new_train.csv` and `new_test.csv`, also in the `data` folder.
 
